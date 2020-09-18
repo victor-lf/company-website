@@ -13,7 +13,7 @@ html {
 body {
   background: #00bfff !important;
   font-family: Arial;
-  height: 100%;
+  font-size: 13px !important;
   max-width: 80%;
   margin: auto !important;
 }
@@ -123,7 +123,7 @@ iframe {
 /* Footer */
 footer {
   color: white;
-  padding: 10px 0 0 0;
+  padding: 20px 0;
   text-align: center;
 }
 footer ul {
@@ -131,8 +131,8 @@ footer ul {
   padding-left: 0;
 }
 footer a { 
-  color: #2168a6;
-  font-weight: lighter; 
+  color: #fff;
+  font-weight: bold; 
 } 
 footer div:nth-child(-n+2) { 
   padding: 0 1rem;
@@ -168,7 +168,6 @@ footer div:nth-child(-n+2) {
 
   .flex-container { font-size: 1rem !important; }
 
-  h5 { font-size: 1.3rem !important; }
 
   body { max-width: 100%; }
 }
