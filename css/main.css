@@ -13,12 +13,17 @@ html {
 body {
   background: #00bfff !important;
   font-family: Arial;
-  font-size: 13px !important;
-  max-width: 80%;
+  height: 100%;
   margin: auto !important;
 }
 
-#logo { text-align: center; }
+#logo { 
+  box-shadow: 10px 0 10px black;
+  text-align: center;
+  position: relative;
+}
+
+
 
 #logo img { 
   height: auto;
@@ -78,15 +83,13 @@ body {
 }
 
 .card {
-  background-color: #ffffff;
+  background-color: #00bfff;
   border-radius: 2px;
-  box-shadow: 0 10px 15px 0 rgba(0, 0, 0, 0.24);
-
 }
 
 .card > img { 
   object-fit: cover;
-  height: auto;
+  height: 53vh;
   min-height: 50vh;
   width: 100%; 
 }
@@ -97,6 +100,16 @@ iframe {
   height: 100%;
   width: 100%;
 }
+
+
+/* Carousel */
+.gallery-cell { 
+  background: url(../img/foto.jpg) !important;
+  background-size: cover !important;
+}
+.flickity-page-dots { display: none; }
+.flickity-button-icon { height: 10px; }
+
 
 .clientes {
   display: grid;
