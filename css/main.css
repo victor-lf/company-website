@@ -82,6 +82,7 @@ body {
 }
 
 #below-nav {
+  box-shadow: 0 1px 12px black;
   color: #f8f8f8;
   position: relative;
   text-align: end;
@@ -163,6 +164,11 @@ footer div:nth-child(-n+2) {
   width: 100%;
 }
 input { color: black !important; }
+.button { 
+  color: black !important; 
+  background-color: #fefefe !important;
+}
+.button:hover { background-color: #d6d8d9 !important; }
 
 
 /* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
