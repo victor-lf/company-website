@@ -87,16 +87,7 @@ body {
   position: relative;
   text-align: end;
 }
-#below-nav ul {
-  display: none;
-  list-style-type: none;
-  padding-left: 0;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  
-}
+
 
 
 .card {
@@ -157,6 +148,12 @@ footer a {
 footer div:nth-child(-n+2) { 
   padding: 0 1rem;
   text-align: center;
+}
+form { padding: 0; }
+footer ul {
+  list-style-type: none;
+  margin-top: 20px;
+  padding: 0;
 }
 #copy { 
   font-size: 0.9rem;
