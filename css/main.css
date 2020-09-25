@@ -89,7 +89,7 @@ body {
 
 .card > img { 
   object-fit: cover;
-  height: 53vh;
+  height: 73vh;
   min-height: 50vh;
   width: 100%; 
 }
@@ -112,6 +112,7 @@ iframe {
 
 
 .clientes {
+  background-color: white;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
   /*grid-template-rows: repeat(8, 5vw);*/
