@@ -145,10 +145,6 @@ footer a {
   color: #fff;
   font-weight: bold; 
 } 
-footer div:nth-child(-n+2) { 
-  padding: 0 1rem;
-  text-align: center;
-}
 form { padding: 0; }
 footer ul {
   list-style-type: none;
